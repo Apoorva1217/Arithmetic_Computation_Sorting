@@ -19,3 +19,10 @@ op3=$(($c+$a/$b))
 
 #compute a%b+c
 op4=$(($a%$b+$c))
+
+#Store result in dictionary
+declare -A dict
+dict[1]=$op1
+dict[2]=$op2
+dict[3]=$op3
+dict[4]=$op4
