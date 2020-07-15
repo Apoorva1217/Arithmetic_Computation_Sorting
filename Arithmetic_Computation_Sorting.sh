@@ -16,3 +16,6 @@ op2=$(($a*$b+$c))
 
 #compute c+a/b
 op3=$(($c+$a/$b))
+
+#compute a%b+c
+op4=$(($a%$b+$c))
