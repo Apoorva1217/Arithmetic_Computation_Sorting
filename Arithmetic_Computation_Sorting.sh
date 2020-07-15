@@ -26,3 +26,9 @@ dict[1]=$op1
 dict[2]=$op2
 dict[3]=$op3
 dict[4]=$op4
+
+#Read the values from the Dictionary into the array
+arr[0]=${dict[1]}
+arr[1]=${dict[2]}
+arr[2]=${dict[3]}
+arr[3]=${dict[4]}
